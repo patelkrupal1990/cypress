@@ -1,11 +1,11 @@
-# cypress
-A better way to start with cypress
+# Cypress test and Best Practices
 
-Directory Structure:
-1. Fixtures
-2. Integration.
-  2.1 examples folder containing all the samples . Inherited from the cypress.
-  2.2 login_specs . It contains the login methods with normal cypress commands,POM, calling commands inside commands.js
-3. Plugin . Need to explore.
-4. Support . All the helper files associated with specs are placed in support folder.
+###### A better way to start with cypress...
+
+1. Getting Started
+   1. [Environment Setup](https://docs.cypress.io/guides/getting-started/installing-cypress.html) - Cypress environment setup
+   1. [Writing and Organizing Tests](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests.html#Folder-Structure) - Cypress Directory structure setup
+   1. [Writing your first app](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html)
+1. [Best Practice Guide](https://docs.cypress.io/guides/references/best-practices.html) - Best Practices
+1. [Sample test script](https://github.com/patelkrupal1990/cypress-test/blob/master/cypress/integration/login_specs/login.spec.js) - Sample Login Example with Commands, POM, adding own commands in commands.js
 
