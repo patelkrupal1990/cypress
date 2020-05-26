@@ -22,7 +22,7 @@ it('User should login with correct email and invalid password' ,  function() {
   cy.get('#login').within(() => {
     cy.get('#login_field')
       .focus()
-      .type('patelkrupal1990@gmail.com', { delay: 10 }).should('have.value','patelkrupal1990@gmail.com')
+      .type('abc@gmail.com', { delay: 10 }).should('have.value','abc@gmail.com')
     cy.get('#password')
       .type('abcd')
       .clear()
@@ -41,7 +41,7 @@ it('User should login with correct email and invalid password with POM' ,  funct
     cy.contains('Sign in to GitHub').should('be.visible')
   })
   const LP = new LoginPage()
-  LP.fillUsername('patelkrupal1990@gmail.com')
+  LP.fillUsername('abc@gmail.com')
   LP.fillPassword('abcdefg')
   LP.loginButton()
   cy.get('.flash')

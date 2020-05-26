@@ -2,3 +2,5 @@ cypress/videos
 cypress/screenshots
 npm-debug.log
 node_modules
+*.iml
+*.xml
