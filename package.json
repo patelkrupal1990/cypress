@@ -1,0 +1,14 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "cypress test",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "./node_modules/.bin/cypress open"
+  },
+  "author": "Krupal",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.6.0"
+  }
+}
